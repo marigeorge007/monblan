@@ -345,6 +345,26 @@ body {
   z-index: 1;
 }
 
+.header .form input::-webkit-input-placeholder {
+  color: #333333;
+  opacity: 1;
+}
+
+.header .form input::-moz-placeholder {
+  color: #333333;
+  opacity: 1;
+}
+
+.header .form input:-moz-placeholder {
+  color: #333333;
+  opacity: 1;
+}
+
+.header .form input:-ms-input-placeholder {
+  color: #333333;
+  opacity: 1;
+}
+
 .main {
   background-color: #fafafa;
   -webkit-box-shadow: inset 0px 7px 10px -15px #918f8f;
@@ -526,56 +546,4 @@ body {
   display: block;
   width: 126px;
   outline: none;
-}
-
-/*==========  Desktop First  ==========*/
-/* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
-  /**/
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width: 992px) {
-  /**/
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
-  /**/
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px) {
-  /**/
-}
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 320px) {
-  /**/
-}
-
-/*==========  Mobile First  ==========*/
-/* Custom, iPhone Retina */
-@media only screen and (min-width: 320px) {
-  /**/
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) {
-  /**/
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width: 768px) {
-  /**/
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width: 992px) {
-  /**/
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {
-  /**/
 }

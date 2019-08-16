@@ -1,4 +1,3 @@
-@import "vars"
 @import "fonts"
 
 * 
@@ -189,6 +188,18 @@ body
 			background-color: transparent
 			position: relative
 			z-index: 1
+			&::-webkit-input-placeholder  
+				color: #333333 
+				opacity: 1
+			&::-moz-placeholder           
+				color: #333333 
+				opacity: 1 /* Firefox 19+ */
+			&:-moz-placeholder            
+				color: #333333 
+				opacity: 1 /* Firefox 18- */
+			&:-ms-input-placeholder       
+				color: #333333 
+				opacity: 1
 
 				
 
@@ -304,16 +315,3 @@ body
 		width: 126px
 		outline: none
 
-
-
-
-
-
-
-
-
-
-
-
-
-@import "media"
